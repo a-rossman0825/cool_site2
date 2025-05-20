@@ -53,9 +53,6 @@
           <a class="nav-link" href="#">MERCH</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">NEWSLETTER</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">CONTACT</a>
         </li>
       </ul>
@@ -81,9 +78,11 @@
       </div>
     </div>
   </section>
+  
 
   <!-- NOTE: MUSIC SECTION -->
   <section id="music" class="container text-secondary text-center mb-5">
+    <hr class="bg-secondary text-secondary mb-5" style="height: 3px;">
     <h1>LATEST RELEASE</h1>
     <hr>
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5q7CCWF5doF9zlYRQDLEfi?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -91,7 +90,7 @@
   </section>
 
   <!-- NOTE: SHOWS SECTION -->
-  <section id="shows" class="container-fluid bg-secondary mb-5">
+  <section id="shows" class="container-fluid bg-dark mb-5">
     <div class="row justify-content-center">
       <div class="col-12 text-center text-light mt-5">
         <h1>UPCOMING SHOWS</h1>
@@ -142,6 +141,53 @@
     </div>
   </section>
 
+  <!-- NOTE: CONTACT SECTION -->
+  <section class="container">
+    <div class="row justify-content-center">
+      <!--NOTE: CONTACT FORM-->
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        <div class="card shadow-sm rounded h-100">
+          <div class="card-body">
+            <form>
+              <div class="row">
+                <div class="col-12 col-lg-6 mb-3">
+                  <input type="text" class="form-control text-secondary fw-light" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <input type="email" class="form-control text-secondary fw-light" id="email" placeholder="Your email">
+                </div>
+              </div>
+              <div class="col-12 mb-3">
+                <input type="text" class="form-control text-secondary fw-light" id="subject" placeholder="Subject">
+              </div>
+              <div class="col-12 mb-3">
+                <textarea class="form-control text-secondary fw-light" id="message" rows="4"
+                  placeholder="Message"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-success rounded-1 px-4">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        <div class="card shadow-sm rounded h-100">
+          <div class="card-body">
+              <div class="col-12 text-center display-4 fw-bold">
+                <h3>Subscribe To Our Newsletter</h3>
+              </div>
+              <form>
+                <div class="col-12 col-lg-6 mb-3">
+                  <input type="email" class="form-control text-secondary fw-light" id="email" placeholder="Your email">
+                </div>
+                <button class=""
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
