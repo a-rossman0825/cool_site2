@@ -5,3 +5,11 @@
   background-position: center;
 }
 
+.media-text:hover {
+  color:aquamarine !important;
+}
+
+.merch-card:hover {
+  transition: all 0.2s ease-in-out;
+  transform:scale(1.02)!important;
+}
